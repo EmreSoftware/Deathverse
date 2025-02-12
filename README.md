@@ -1,2 +1,2 @@
-# Deathverse
-funny gmod death script
+# Deathverse: Enhanced Annihilation Suite
+a funny death script for gmod

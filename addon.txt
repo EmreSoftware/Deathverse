@@ -1,0 +1,8 @@
+"AddonInfo"
+{
+	"name"		"Deathverse: Enhanced Annihilation Suite"
+	"version"	"1.0"
+	"author_name"	"EFSP - https://steamcommunity.com/id/efsp"
+        "author_email"      ""
+	"info"		"Simple yet full of content"
+}
