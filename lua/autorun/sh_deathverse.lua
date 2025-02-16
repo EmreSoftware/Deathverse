@@ -4,7 +4,7 @@
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License,or any later version.
+    the Free Software Foundation, either version 3 of the License, or any later version.
 
     This program is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -13,7 +13,10 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
-]]--
+
+    NOTE: You are allowed to submit pull requests on GitHub to improve or fix the code, but you may NOT upload or redistribute this code on the Steam Workshop or elsewhere.
+]]
+
 
 print("----------------------------------------")
 print(" Deathverse: Enhanced Annihilation Suite")
