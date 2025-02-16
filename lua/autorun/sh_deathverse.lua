@@ -1,6 +1,6 @@
 --[[
     Death messages, death sounds and killstreaks for Garry's Mod.
-    Copyright (C) 2024  EmreSoftware
+    Copyright (C) 2025  EmreSoftware
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
