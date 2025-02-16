@@ -82,7 +82,7 @@ hook.Add("PlayerDeath", "EFSPGlobalDeathMessage", function(victim, inflictor, at
     if victim == attacker then
         victim:SetNWInt("EFSPKillstreak", 0)
         local template
-        template, recentSuicideIndices = GetNonRepeatingSelection(SuicideMessages, recentSuicideIndices)
+        template, recentSuicideIndices = GetNonRepeatingSelection(DeathVerse.Config.SuicideMessages, recentSuicideIndices)
         
         net.Start("EFSPDeathMessage")
             net.WriteBool(true)
@@ -92,7 +92,7 @@ hook.Add("PlayerDeath", "EFSPGlobalDeathMessage", function(victim, inflictor, at
         
         if efspSoundsEnabled:GetBool() then
             local soundPath
-            soundPath, recentRegularVictimSoundIndices = GetNonRepeatingSelection(RegularVictimSounds, recentRegularVictimSoundIndices)
+            soundPath, recentRegularVictimSoundIndices = GetNonRepeatingSelection(DeathVerse.Config.RegularVictimSounds, recentRegularVictimSoundIndices)
             
             net.Start("EFSPDeathSound3D")
                 net.WriteString(soundPath)
@@ -137,16 +137,16 @@ hook.Add("PlayerDeath", "EFSPGlobalDeathMessage", function(victim, inflictor, at
         end
     
         -- If there is a predefined killstreak message for this streak, mark killstreak reached.
-        if KillStreakMessages[currentStreak] then
+        if DeathVerse.KillStreakMessages[currentStreak] then
             killstreakReached = true
             if streakTemplate == "" then
-                streakTemplate = table.Random(KillStreakMessages[currentStreak])
+                streakTemplate = table.Random(DeathVerse.KillStreakMessages[currentStreak])
             end
         end
     end 
 
     local regularTemplate
-    regularTemplate, recentDeathIndices = GetNonRepeatingSelection(DeathMessages, recentDeathIndices)
+    regularTemplate, recentDeathIndices = GetNonRepeatingSelection(DeathVerse.Config.DeathMessages, recentDeathIndices)
     
     net.Start("EFSPDeathMessage")
         net.WriteBool(false)
@@ -163,9 +163,9 @@ hook.Add("PlayerDeath", "EFSPGlobalDeathMessage", function(victim, inflictor, at
     if efspSoundsEnabled:GetBool() then
         local victimSound
         if killstreakReached then
-            victimSound, recentStreakVictimSoundIndices = GetNonRepeatingSelection(StreakVictimSounds, recentStreakVictimSoundIndices)
+            victimSound, recentStreakVictimSoundIndices = GetNonRepeatingSelection(DeathVerse.Config.StreakVictimSounds, recentStreakVictimSoundIndices)
         else
-            victimSound, recentRegularVictimSoundIndices = GetNonRepeatingSelection(RegularVictimSounds, recentRegularVictimSoundIndices)
+            victimSound, recentRegularVictimSoundIndices = GetNonRepeatingSelection(DeathVerse.Config.RegularVictimSounds, recentRegularVictimSoundIndices)
         end
         
         net.Start("EFSPDeathSound3D")
