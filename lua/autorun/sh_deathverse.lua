@@ -28,6 +28,7 @@ local victimSoundAmount = 69
 
 -- Create a single global table to hold all addon data.
 DeathVerse = DeathVerse or {}
+DeathVerse.contextMenu = true
 
 -- Store configuration in the global table.
 DeathVerse.Config = {
@@ -215,8 +216,26 @@ DeathVerse.KillStreakMessages = {
 }
 
 if CLIENT then
+    CreateClientConVar("deathverse_volume", "0.5", true, true, "Volume for Deathverse sounds (0-1)", 0, 1)
+
+    
     hook.Add("PlayerDeathSound", "DisableDefaultDeathSound", function()
         return true
+    end)
+
+
+    -- Add to context menu
+    hook.Add("PopulateToolMenu", "DeathverseSettings", function()
+        spawnmenu.AddToolMenuOption("Utilities", "Deathverse", "VolumeControl", "Volume", "", "", function(panel)
+            panel:ClearControls()
+            panel:AddControl("Slider", {
+                Label = "Sound Volume",
+                Command = "deathverse_volume",
+                Type = "Float",
+                Min = 0,
+                Max = 1
+            })
+        end)
     end)
 
     --[[
@@ -289,6 +308,7 @@ if CLIENT then
     net.Receive("EFSPDeathSound3D", function()
         local soundPath = net.ReadString()
         local pos = net.ReadVector()
+        local vol = GetConVar("deathverse_volume"):GetFloat()
         
         local attenuation = 0.5
         if ConVarExists("deathverse_sound_attenuation") then
@@ -297,12 +317,12 @@ if CLIENT then
         
         local success, err = pcall(function()
             sound.Play(
-                soundPath,
-                pos,
-                75,   -- Sound channel.
-                100,  -- Volume.
-                math.Clamp(attenuation, 0.1, 2.0)
-            )
+            soundPath,
+            pos,
+            75,                           -- Sound level in decibels.
+            100,                          -- Pitch.
+            GetConVar("deathverse_volume"):GetFloat()  -- Volume between 0 and 1.
+        )
         end)
         
         if not success then
@@ -313,8 +333,9 @@ if CLIENT then
     -- 2D sound receiver.
     net.Receive("EFSPDeathSound2D", function()
         local soundPath = net.ReadString()
-        print("[Deathverse] Received 2D sound:", soundPath)
-        surface.PlaySound(soundPath)
+        local vol = GetConVar("deathverse_volume"):GetFloat()
+        LocalPlayer():EmitSound(soundPath, 75, 100, vol)  -- SNDLVL_IDLE, pitch 100, volume 0-1
+        print("[Deathverse] Played 2D sound:", soundPath, "at volume", vol)
     end)
 end
 
