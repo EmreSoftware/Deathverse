@@ -25,7 +25,8 @@ You are **not permitted** to:
 - Redistribute the software, in whole or in part, whether modified or unmodified
 - Sell, license, or commercially exploit this software in any form
 - Include this software in public modpacks, server bundles, or content packs
-- Obfuscate or strip attribution from this software
+- Obfuscate, remove, or alter attribution from the code
+- Use, share, or bundle this addon in any way beyond personal use **without explicit written permission from the author**
 
 Unauthorized redistribution or commercial use may result in **legal action**.
 
@@ -49,5 +50,7 @@ In no event shall the author be held liable for any damages arising from the use
 
 ## 5. Licensing and Permissions
 
-For inquiries about licensing, redistribution, or business use, please contact the author directly.
+For licensing inquiries, redistribution requests, business use, or any use case beyond private personal/server use,  
+you must obtain **explicit written permission** from the author.
 
+Contact: github: EmreSoftware
