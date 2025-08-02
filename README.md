@@ -21,7 +21,6 @@ https://youtu.be/FjCeoVTd0j0
 
 - Killstreak Announcements
 
-- Fully Configurable
 # Settings
 
 | Settings             | cvar                                                                |
