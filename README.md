@@ -57,7 +57,7 @@ A: No. Redistribution or reuploading is not allowed under the license. You must 
 A: You may edit the local config to add new sound paths or message templates for personal/server use only. Modified versions may not be shared or rehosted.
 
 **Q: Is there a way to test it locally?**  
-A: Yes. Launch a singleplayer game, spawn a bot (`bot` command in console), and try different weapons. Death messages and sounds should trigger normally.
+A: Yes. Launch a singleplayer game, spawn a bot (`bot` command in console), and try killing them. Or you can kill your own character by typing `kill` command in console. Death messages and sounds should trigger normally.
 
 ## Optimizations
 
