@@ -8,9 +8,8 @@ Tired of bland death messages? It's time to elevate your game with our brainrot 
 
 ## Installation
 
-Install Deathverse with Steam Workshop:
+[Deathverse on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3428450850)
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=3428450850
 ## Demo
 
 https://youtu.be/FjCeoVTd0j0
