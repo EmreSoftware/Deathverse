@@ -32,8 +32,8 @@ https://youtu.be/FjCeoVTd0j0
 
 ## FAQ
 
-**Q: Can I customize death sounds and messages per weapon or cause of death?**  
-A: Yes. You can assign specific sounds and messages to weapon classnames, damage types, suicides, or prop kills - all locally for your server.
+**Q: Can I customize death sounds and messages?**  
+A: Yes. You can assign specific sounds and messages to suicides, and kills - all locally for your server.
 
 **Q: How are killstreaks tracked?**  
 A: Killstreaks are tracked per-player and reset on death. You can define milestone thresholds (e.g., 3, 5, 10 kills) and set custom messages or sounds for each.
