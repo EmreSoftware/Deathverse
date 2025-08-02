@@ -3,7 +3,7 @@ Tired of bland death messages? It's time to elevate your game with our brainrot 
 
 ## License
 
-[EmreSoftware Custom License v1.0](https://github.com/EmreSoftware/Deathverse/blob/main/LICENSE)
+[EmreSoftware Custom License v1.0](https://github.com/EmreSoftware/Deathverse/blob/main/LICENSE.md)
 
 
 ## Installation
