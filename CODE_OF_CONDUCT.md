@@ -1,128 +1,121 @@
-# Contributor Covenant Code of Conduct
+# **Contributor Code of Conduct (Deathverse)**
 
-## Our Pledge
+## **Our Commitment**
 
-We as members, contributors, and leaders pledge to make participation in our
-community a harassment-free experience for everyone, regardless of age, body
-size, visible or invisible disability, ethnicity, sex characteristics, gender
-identity and expression, level of experience, education, socio-economic status,
-nationality, personal appearance, race, religion, or sexual identity
-and orientation.
+The Deathverse project is maintained under strict licensing and controlled contribution rules.
+To keep development clean, safe, and respectful, all participants—contributors, issue reporters, and maintainers—must follow this Code of Conduct.
 
-We pledge to act and interact in ways that contribute to an open, welcoming,
-diverse, inclusive, and healthy community.
+This project aims to foster:
 
-## Our Standards
+* Professional, respectful communication
+* Constructive collaboration
+* A safe and harassment-free environment for everyone involved
 
-Examples of behavior that contributes to a positive environment for our
-community include:
+This Code of Conduct applies **only** within this GitHub repository and any direct communication related to contributions.
 
-* Demonstrating empathy and kindness toward other people
-* Being respectful of differing opinions, viewpoints, and experiences
-* Giving and gracefully accepting constructive feedback
-* Accepting responsibility and apologizing to those affected by our mistakes,
-  and learning from the experience
-* Focusing on what is best not just for us as individuals, but for the
-  overall community
+---
 
-Examples of unacceptable behavior include:
+## **Expected Behavior**
 
-* The use of sexualized language or imagery, and sexual attention or
-  advances of any kind
-* Trolling, insulting or derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or email
-  address, without their explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+Participants are expected to:
 
-## Enforcement Responsibilities
+* Communicate respectfully and professionally
+* Provide constructive, clear feedback
+* Keep discussions focused on improving the project
+* Follow the project’s contribution rules, coding style, and license
+* Accept maintainer decisions without hostility
+* Report bugs or issues politely and descriptively
 
-Community leaders are responsible for clarifying and enforcing our standards of
-acceptable behavior and will take appropriate and fair corrective action in
-response to any behavior that they deem inappropriate, threatening, offensive,
-or harmful.
+---
 
-Community leaders have the right and responsibility to remove, edit, or reject
-comments, commits, code, wiki edits, issues, and other contributions that are
-not aligned to this Code of Conduct, and will communicate reasons for moderation
-decisions when appropriate.
+## **Unacceptable Behavior**
 
-## Scope
+The following behaviors are prohibited:
 
-This Code of Conduct applies within all community spaces, and also applies when
-an individual is officially representing the community in public spaces.
-Examples of representing our community include using an official e-mail address,
-posting via an official social media account, or acting as an appointed
-representative at an online or offline event.
+* Harassment, hate speech, or personal attacks
+* Trolling, flame wars, or creating drama
+* Aggressive or disrespectful communication
+* Attempts to circumvent the project’s **license restrictions**
+* Attempts to promote forks, mirrors, or unauthorized redistribution
+* Posting or sharing modified builds outside this repository
+* Pressuring maintainers to accept changes that violate project goals
 
-## Enforcement
+Any behavior that disrupts development or undermines project security is not allowed.
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at
-issues page.
-All complaints will be reviewed and investigated promptly and fairly.
+---
 
-All community leaders are obligated to respect the privacy and security of the
-reporter of any incident.
+## **Maintainer Authority**
 
-## Enforcement Guidelines
+The project is owned and controlled by **EmreSoftware**.
 
-Community leaders will follow these Community Impact Guidelines in determining
-the consequences for any action they deem in violation of this Code of Conduct:
+Maintainers have the right to:
 
-### 1. Correction
+* Close or lock issues
+* Reject contributions
+* Remove or edit comments
+* Ban contributors from this repository
+* Decline feature requests that do not align with the project’s scope
+* Enforce all licensing and distribution rules
+* Require changes or improvements before merging PRs
 
-**Community Impact**: Use of inappropriate language or other behavior deemed
-unprofessional or unwelcome in the community.
+These decisions are final.
 
-**Consequence**: A private, written warning from community leaders, providing
-clarity around the nature of the violation and an explanation of why the
-behavior was inappropriate. A public apology may be requested.
+---
 
-### 2. Warning
+## **Scope**
 
-**Community Impact**: A violation through a single incident or series
-of actions.
+This Code of Conduct applies to:
 
-**Consequence**: A warning with consequences for continued behavior. No
-interaction with the people involved, including unsolicited interaction with
-those enforcing the Code of Conduct, for a specified period of time. This
-includes avoiding interactions in community spaces as well as external channels
-like social media. Violating these terms may lead to a temporary or
-permanent ban.
+* All activity within this GitHub repository
+* Pull requests
+* Issues
+* Project discussions or comments
+* Any direct communication with maintainers regarding Deathverse
 
-### 3. Temporary Ban
+It does **not** extend to unrelated platforms or general internet behavior.
 
-**Community Impact**: A serious violation of community standards, including
-sustained inappropriate behavior.
+---
 
-**Consequence**: A temporary ban from any sort of interaction or public
-communication with the community for a specified period of time. No public or
-private interaction with the people involved, including unsolicited interaction
-with those enforcing the Code of Conduct, is allowed during this period.
-Violating these terms may lead to a permanent ban.
+## **Reporting Violations**
 
-### 4. Permanent Ban
+To report unacceptable behavior or violations of this Code of Conduct:
 
-**Community Impact**: Demonstrating a pattern of violation of community
-standards, including sustained inappropriate behavior,  harassment of an
-individual, or aggression toward or disparagement of classes of individuals.
+* Use the GitHub **Issues** page
+* Or contact the maintainer directly via GitHub: **EmreSoftware**
 
-**Consequence**: A permanent ban from any sort of public interaction within
-the community.
+Reports will be reviewed privately and acted upon at the maintainer’s discretion.
 
-## Attribution
+---
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage],
-version 2.0, available at
-https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
+## **Enforcement**
 
-Community Impact Guidelines were inspired by [Mozilla's code of conduct
-enforcement ladder](https://github.com/mozilla/diversity).
+Consequences for violating this Code of Conduct may include:
 
-[homepage]: https://www.contributor-covenant.org
+### **1. Warning**
 
-For answers to common questions about this code of conduct, see the FAQ at
-https://www.contributor-covenant.org/faq. Translations are available at
-https://www.contributor-covenant.org/translations.
+A private reminder of the rules.
+
+### **2. Issue/PR Restrictions**
+
+Limited ability to comment or participate.
+
+### **3. Temporary Ban**
+
+Suspended interaction with the repository.
+
+### **4. Permanent Ban**
+
+Permanent removal from participation in this repository.
+
+Actions are taken based on severity and frequency of violations.
+Maintainer judgment is final.
+
+---
+
+## **License Alignment**
+
+All participants must adhere to the
+**EmreSoftware Custom License v1.1**
+regarding redistribution, forks, mirrors, and derivative works.
+
+Any attempt to bypass or undermine the license will result in permanent removal.
