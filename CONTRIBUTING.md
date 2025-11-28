@@ -1,33 +1,59 @@
-# Contributing to Deathverse
+# **Contributing to Deathverse**
 
-Thanks for your interest in improving Deathverse!
+Thanks for your interest in improving **Deathverse**!
 
-Please read the following guidelines before submitting pull requests or feature suggestions.
+Before submitting anything, please read the guidelines below.
+This project accepts contributions - but only through the official repository, under strict licensing rules.
 
-## What You Can Contribute
+---
 
-- Bugfixes
-- Performance improvements
-- Compatibility enhancements (e.g., with DarkRP, TTT, custom weapons)
-- New config options (if they don’t break existing features)
-- Clean code refactoring or optimization
+## **What You Can Contribute**
 
-## What You Cannot Contribute
+* Bugfixes
+* Performance improvements
+* Compatibility improvements (DarkRP, TTT, weapons, etc.)
+* Safe config additions that don’t break existing behavior
+* Code cleanup, refactoring, or optimization
 
-- New features that would change the core behavior without discussion
-- Anything that enables redistribution or bypasses license restrictions
+---
 
-## Legal Notice
+## **What You Cannot Contribute**
 
-By submitting a pull request or contribution, you agree that:
-- You grant EmreSoftware the right to use, modify, and distribute your contribution as part of this project.
-- You will not fork, redistribute, or rehost modified versions of Deathverse outside this repository without written permission.
+* New features that drastically change core functionality without prior discussion
+* Anything that bypasses, weakens, or circumvents the license
+* Content that requires publishing modified versions outside this repository
 
-## How to Contribute
+---
 
-1. Fork the repository.
-2. Create a new branch (`fix/death-message-bug` or `feature/custom-soundpack`).
-3. Make your changes with clear, documented commits.
-4. Submit a pull request with a short description of the fix or improvement.
-5. Respect code style, naming conventions, and structure.
+## **Legal Notice**
 
+By submitting any contribution, you agree that:
+
+* You grant **EmreSoftware** a **perpetual, irrevocable, exclusive right** to use, modify, merge, and distribute your contribution as part of the official project
+* You retain credit, but you **cannot** claim ownership or distribution rights
+* You may **not** fork, mirror, redistribute, or publish modified versions of Deathverse outside the official repository
+* All contributions must be submitted directly to **this** repository — nowhere else
+
+This ensures project integrity and compliance with the **EmreSoftware Custom License v1.1**.
+
+### **Full License:**
+
+[EmreSoftware Custom License v1.1](https://github.com/EmreSoftware/Deathverse/blob/main/LICENSE.md)
+
+### **Code of Conduct:**
+
+[Contributor Code of Conduct](https://github.com/EmreSoftware/Deathverse/blob/main/CODE_OF_CONDUCT.md)
+
+---
+
+## **How to Contribute**
+
+Because public forks are not allowed under the license, please follow this workflow:
+
+1. **Create a private clone** of the repository on your machine.
+2. Make a feature or fix branch locally (`fix/message-timing`, `improve/sound-handler`, etc.).
+3. Commit clear, documented changes.
+4. Submit a **pull request** to the official repo with a concise explanation of what you changed and why.
+5. Follow existing code style, naming conventions, and structure.
+
+If a change is large or might alter core behavior, open an **Issue** first to discuss it before writing code.
