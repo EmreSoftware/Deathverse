@@ -1,92 +1,48 @@
+---
 name: Bug Report
-description: Report a reproducible issue in Deathverse.
-title: "[BUG] Short title"
-labels: ["bug"]
-assignees: ["EmreSoftware"]
+about: Report a reproducible issue in Deathverse
+title: "[BUG] "
+labels: bug
+assignees: EmreSoftware
+---
 
-body:
-  - type: markdown
-    attributes:
-      value: |
-        ## Describe the bug
-        A short, clear description of the issue.  
-        Example: "Kill message prints twice" or "Killstreak counter resets randomly."
+**Describe the bug**
 
-  - type: textarea
-    id: repro
-    attributes:
-      label: Steps to reproduce
-      description: "Explain how to trigger the issue. If unsure, describe when it usually happens."
-      placeholder: |
-        1.
-        2.
-        3.
-    validations:
-      required: true
+A short, clear description of the issue.
 
-  - type: textarea
-    id: expected
-    attributes:
-      label: Expected behavior
-      description: "What should happen?"
-    validations:
-      required: true
+**Steps to reproduce**
 
-  - type: textarea
-    id: current
-    attributes:
-      label: Current behavior
-      description: "What actually happens?"
-    validations:
-      required: true
+Explain how to trigger it.
+1.
+2.
+3.
 
-  - type: textarea
-    id: logs
-    attributes:
-      label: Logs / errors
-      description: "Paste relevant server or client logs here (no screenshots). Include Lua errors if visible."
-      render: text
+**Expected behavior**
 
-  - type: input
-    id: gmod_branch
-    attributes:
-      label: Garry's Mod branch
-      placeholder: "Stable / x86-64 / Dev"
+What should happen.
 
-  - type: input
-    id: gamemode
-    attributes:
-      label: Gamemode
+**Current behavior**
 
-  - type: input
-    id: map
-    attributes:
-      label: Map
+What actually happens.
 
-  - type: input
-    id: servertype
-    attributes:
-      label: Server type
-      placeholder: "Dedicated / Local / Windows / Linux"
+**Logs / errors**
 
-  - type: input
-    id: version
-    attributes:
-      label: Deathverse version
-      placeholder: "Version tag"
+Paste logs here (no screenshots).
 
-  - type: textarea
-    id: addons
-    attributes:
-      label: Other addons installed
-      description: "List only addons that might affect kill messages, combat, HUD, or sound hooks."
+**Garry’s Mod details**
+- Branch (Stable / x86-64 / dev):  
+- Gamemode:  
+- Map:  
+- Server Type:  
 
-  - type: checkboxes
-    id: confirm
-    attributes:
-      label: Before submitting
-      options:
-        - label: I checked and this bug is not already reported.
-          required: true
-        - label: I can reproduce this issue using the official, unmodified version of Deathverse.
-          required: true
+**Deathverse version**
+
+Version Tag
+
+**Other addons installed**
+
+List only relevant ones.
+
+**Before submitting**
+- [ ] I checked this bug wasn’t already reported
+- [ ] I am using the official, unmodified version of Deathverse
