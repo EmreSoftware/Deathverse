@@ -1,85 +1,37 @@
 # Security Policy
 
-## Reporting a Vulnerability
+Deathverse is a client-and server-side Garry's Mod addon. While I do my best to keep it safe, bugs and exploits can happen.
 
-If you discover a security vulnerability, exploit, or code flaw:
+### Reporting a Vulnerability
 
-1. **Do NOT create a public Issue**
-2. **Do NOT disclose it publicly**
-3. **Do NOT share code, proof-of-concept, or reproduction steps publicly**
+Found something serious (RCE, server crash, client crash, privilege escalation, etc.)?
 
-Instead, report it privately to:
+**Please don’t open a public issue.**
 
-**GitHub: EmreSoftware**  
-(Use private messaging or GitHub’s “Report a vulnerability” feature if available.)
+Instead, report it privately:
+- Send me a direct message on GitHub (@EmreSoftware)
+- Or open a private vulnerability report via GitHub’s built-in “Security → Advisories” feature (preferred)
 
-Please include:
+Include as much info as possible:
+- Description of the issue
+- Steps to reproduce
+- Affected versions
+- Potential impact
 
-- Steps to reproduce  
-- Severity (crash, exploit, bypass, etc.)  
-- Environment details  
-- Any relevant logs or symptoms  
+I’ll usually respond within 24–48 hours and credit you in the fix if you want.
 
-All reports will be reviewed at the maintainer’s discretion.
+### What happens next
+- I’ll verify and fix it as fast as possible (normally same week)
+- Once fixed, I’ll push an update and mention the reporter in the changelog (unless you prefer to stay anonymous)
+- Only after the fix is live will the issue become public
 
----
+### Rules (pretty standard)
+- Don’t publicly disclose the vulnerability until it’s patched
+- Don’t use it to attack other servers
+- Don’t upload malicious versions to the Workshop or anywhere else
 
-## Responsible Disclosure Requirements
+That’s literally it.
 
-The following actions are strictly prohibited:
+Thanks for reporting responsibly — you’re helping keep every server that uses Deathverse safer!
 
-❌ Publishing exploit details  
-❌ Sharing or circulating modified versions of this project  
-❌ Posting vulnerabilities publicly  
-❌ Attempting destructive testing on third-party servers  
-❌ Attempting to bypass licensing or distribution restrictions  
-❌ Reverse engineering or tampering with project protections  
-
-Violations may result in:
-
-- Permanent ban from this repository  
-- DMCA takedown enforcement  
-- Notification of affected server owners  
-- Legal action if required  
-
----
-
-## Allowed Testing
-
-You MAY:
-
-✔ Test vulnerabilities on **your own private server**  
-✔ Review the source code locally  
-✔ Notify the maintainer privately  
-✔ Suggest fixes through private communication or PR  
-
-You may NOT:
-
-❌ Attack other servers  
-❌ Stress test, load test, or attempt denial-of-service  
-❌ Redistribute modified versions  
-❌ Attempt to bypass restrictions defined in the license  
-
----
-
-## Supported Versions
-
-Deathverse is provided **“AS IS”** under the EmreSoftware Custom License v1.1.  
-Security fixes are provided **at the maintainer’s discretion**.
-
-There is **no obligation** to provide:
-
-- patches  
-- fixes  
-- updates  
-- support  
-
----
-
-## No Warranty
-
-This project is provided without any warranty of security, safety, or performance.  
-All responsibility falls on the user.
-
-See full license:  
-https://github.com/EmreSoftware/Deathverse/blob/main/LICENSE.md
+— EmreSoftware
