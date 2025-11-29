@@ -104,7 +104,7 @@ body:
     id: deathverse-version
     attributes:
       label: Deathverse version
-      placeholder: v1.x.x or commit hash
+      placeholder: vX.X.X
     validations:
       required: true
 
