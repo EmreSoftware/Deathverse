@@ -1,10 +1,6 @@
 # Deathverse: Spatial Death Sounds, Death Messages, Killstreaks
 Tired of bland death messages? It's time to elevate your game with our brainrot death system that brings chaos, laughter, and a dash of brutal honesty to every kill.
 
-## License
-
-[EmreSoftware Custom License v1.0](https://github.com/EmreSoftware/Deathverse/blob/main/LICENSE.md)
-
 
 ## Installation
 
