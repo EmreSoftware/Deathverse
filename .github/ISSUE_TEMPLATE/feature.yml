@@ -1,6 +1,8 @@
 name: Feature Request
 description: Suggest an improvement or new option for Deathverse.
+title: "[FEATURE] "
 labels: [ enhancement ]
+assignees: EmreSoftware
 body:
   - type: textarea
     id: feature-description
