@@ -1,0 +1,128 @@
+name: Bug Report
+description: Report a reproducible issue in Deathverse.
+title: "[BUG] "
+labels: [ bug ]
+assignees:
+  - EmreSoftware
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: |
+        A short, clear explanation of the issue.
+        Example: "Kill message prints twice", "Killstreak resets randomly".
+      placeholder: |
+        This feature is not behaving correctly.
+        It should do X but instead it does Y.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Exact steps or conditions that trigger the bug.
+      placeholder: |
+        1. Start server with Deathverse
+        2. Join with 2 players
+        3. Player A kills Player B
+        4. Message duplicates
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should happen.
+      placeholder: Describe the correct/intended result.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Current behavior
+      description: What is happening instead.
+      placeholder: Describe the incorrect behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / errors
+      description: |
+        Paste relevant server or client logs here. No screenshots.
+        Include Lua errors or console output if visible.
+      placeholder: |
+        [Paste logs here]
+    validations:
+      required: false
+
+  - type: dropdown
+    id: gmod-branch
+    attributes:
+      label: Garry's Mod branch
+      options:
+        - Stable
+        - x86-64
+        - Dev
+    validations:
+      required: true
+
+  - type: input
+    id: gamemode
+    attributes:
+      label: Gamemode
+      placeholder: DarkRP / TTT / Sandbox / Custom
+    validations:
+      required: true
+
+  - type: input
+    id: map
+    attributes:
+      label: Map
+      placeholder: gm_construct / rp_downtown / custom map
+    validations:
+      required: true
+
+  - type: dropdown
+    id: server-type
+    attributes:
+      label: Server Type
+      options:
+        - Dedicated (Linux)
+        - Dedicated (Windows)
+        - Local Host
+    validations:
+      required: true
+
+  - type: input
+    id: deathverse-version
+    attributes:
+      label: Deathverse version
+      placeholder: v1.x.x or commit hash
+    validations:
+      required: true
+
+  - type: textarea
+    id: addons
+    attributes:
+      label: Other addons installed
+      description: List only addons that might affect kill messages, combat, HUD, or sound hooks.
+      placeholder: List relevant addons here.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked that this bug wasn’t already reported.
+          required: true
+        - label: I am using the official, unmodified version of Deathverse.
+          required: true
