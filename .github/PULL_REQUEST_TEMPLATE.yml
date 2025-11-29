@@ -1,0 +1,77 @@
+name: Pull Request
+description: Submit changes to improve Deathverse
+title: "[PR] "
+labels: [ "pull request" ]
+assignees:
+  - EmreSoftware
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Pull Request Summary
+        Provide a brief explanation of the changes.
+
+  - type: textarea
+    id: changes
+    attributes:
+      label: Describe your changes
+      description: |
+        What does this PR change? Be clear and concise.
+      placeholder: |
+        - Fixed kill message duplication
+        - Improved sound hook reliability
+        - Added config option for X
+    validations:
+      required: true
+
+  - type: textarea
+    id: testing
+    attributes:
+      label: Testing performed
+      description: |
+        Describe how you tested these changes. Include steps, scenarios, or reproduction attempts.
+      placeholder: |
+        - Tested on clean server
+        - Tested with DarkRP
+        - Verified no Lua errors appear in console
+    validations:
+      required: true
+
+  - type: dropdown
+    id: compatibility
+    attributes:
+      label: Compatibility impact
+      description: |
+        Do these changes affect gameplay, configs, or other addons?
+      options:
+        - No breaking changes
+        - Minor behavior changes
+        - Major changes (requires review)
+    validations:
+      required: true
+
+  - type: textarea
+    id: related
+    attributes:
+      label: Related issues (optional)
+      description: |
+        Reference any linked issues or tickets. Example: #12
+      placeholder: "Related issues..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmation checklist
+      options:
+        - label: I am using the official, unmodified codebase of Deathverse.
+          required: true
+        - label: My contribution does not break the EmreSoftware Custom License v1.1.
+          required: true
+        - label: I tested these changes and verified they work as intended.
+          required: true
+        - label: I am not submitting forked, mirrored, or redistributed code.
+          required: true
+        - label: I added comments to non-trivial or complex code.
+          required: true
