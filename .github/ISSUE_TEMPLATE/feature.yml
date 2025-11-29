@@ -1,0 +1,61 @@
+name: Feature Request
+description: Suggest an improvement or new option for Deathverse.
+labels: [ enhancement ]
+body:
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Describe the feature
+      description: |
+        A short and clear explanation of the feature you want to see added.
+        Example: "Add support for custom soundpacks" or "Add an option to disable killstreak sounds."
+      placeholder: |
+        Describe what you want added and what it should do.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why-needed
+    attributes:
+      label: Why this is needed
+      description: |
+        Explain the problem this feature solves or why it benefits Deathverse.
+        Example: "Server owners want more customization" or "Players requested an option to reduce noise."
+      placeholder: |
+        This feature is needed because...
+    validations:
+      required: true
+
+  - type: textarea
+    id: how-it-works
+    attributes:
+      label: How it should work
+      description: |
+        Describe how the feature should behave, appear, or be configured.
+        Include UI examples if relevant.
+      placeholder: |
+        When enabled, the feature should...
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: |
+        If there are other ways this could be implemented or related ideas, describe them here.
+      placeholder: |
+        Another way to solve this problem could be...
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: |
+        Anything else relevant — screenshots, videos, configs, links, etc.
+      placeholder: |
+        Extra details, if any.
+    validations:
+      required: false
