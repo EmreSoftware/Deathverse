@@ -9,8 +9,7 @@ Found something serious (RCE, server crash, client crash, privilege escalation, 
 **Please don’t open a public issue.**
 
 Instead, report it privately:
-- Send me a direct message on GitHub (@EmreSoftware)
-- Or open a private vulnerability report via GitHub’s built-in “Security → Advisories” feature (preferred)
+- Open a private vulnerability report via GitHub’s built-in “Security → Advisories” feature
 
 Include as much info as possible:
 - Description of the issue
