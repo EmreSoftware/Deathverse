@@ -46,9 +46,6 @@ A: Currently, only death sounds can be disabled. More config options for togglin
 **Q: Can I use this on my DarkRP or TTT server?**  
 A: Yes. It works on any gamemode that uses `PlayerDeath` or `DoPlayerDeath`. Integration for custom kill logic can be added manually.
 
-**Q: Can I upload this to the Workshop or rehost it?**  
-A: No. Redistribution or reuploading is not allowed under the license. You must have explicit written permission from the author.
-
 **Q: How do I add new sounds or kill messages?**  
 A: You may edit the local config to add new sound paths or message templates for personal/server use only. Modified versions may not be shared or rehosted.
 
