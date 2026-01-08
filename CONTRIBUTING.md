@@ -2,7 +2,7 @@
 
 Thanks for your interest in improving **Deathverse**.
 
-By contributing, you agree to follow the guidelines below and that your contributions will be licensed under the **GNU GPL v3.0** (or any later version, at your option), the same license as this project.
+By contributing, you agree to follow the guidelines below and that your contributions will be licensed under the **GNU GPL v3.0**, the same license as this project.
 
 ---
 
