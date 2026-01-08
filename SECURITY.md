@@ -9,7 +9,7 @@ Found something serious (RCE, server crash, client crash, privilege escalation, 
 **Please don’t open a public issue.**
 
 Instead, report it privately:
-- Open a private vulnerability report via GitHub’s built-in “Security → Advisories” feature
+- Open a private vulnerability report via GitHub’s built-in [“Security → Advisories” feature](https://github.com/EmreSoftware/Deathverse/security/advisories)
 
 Include as much info as possible:
 - Description of the issue
